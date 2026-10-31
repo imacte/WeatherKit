@@ -1,34 +1,30 @@
 {
-  "created": "2026-10-31",
-  "owner": "imacte",
-  "branch": "egern",
-  "releaseAssets": [
+  "schema_version": 2,
+  "upstream": "NSRingo/WeatherKit",
+  "tag": "v3.3.2",
+  "source_commit": "138e8a379bfff15fb2c35ec630747886751500bb",
+  "assets": [
     {
-      "project": "WeatherKit",
-      "version": "v3.3.2",
+      "name": "iRingo.WeatherKit.yaml",
       "path": "release/v3.3.2/iRingo.WeatherKit.yaml",
       "source": "https://github.com/NSRingo/WeatherKit/releases/download/v3.3.2/iRingo.WeatherKit.yaml",
-      "sourceDigest": "sha256:8a67e8b7ed2cc93a6c5d3ba810166e501e829d9be53db75b811257d4bc539013"
+      "sourceDigest": "sha256:8a67e8b7ed2cc93a6c5d3ba810166e501e829d9be53db75b811257d4bc539013",
+      "sha256": "sha256:8a67e8b7ed2cc93a6c5d3ba810166e501e829d9be53db75b811257d4bc539013"
     },
     {
-      "project": "WeatherKit",
-      "version": "v3.3.2",
-      "path": "release/v3.3.2/request.bundle.js",
-      "source": "https://github.com/NSRingo/WeatherKit/releases/download/v3.3.2/request.bundle.js",
-      "sourceDigest": "sha256:da05af299dd2172e1c25a2bff349cdda268114ee7fc43340cc48da29c76ea033"
-    },
-    {
-      "project": "WeatherKit",
-      "version": "v3.3.2",
+      "name": "response.bundle.js",
       "path": "release/v3.3.2/response.bundle.js",
       "source": "https://github.com/NSRingo/WeatherKit/releases/download/v3.3.2/response.bundle.js",
-      "sourceDigest": "sha256:ce1db90d77c44fce972db0c2e319845fc1d6a276d41d772c0294882e59d7f999"
+      "sourceDigest": "sha256:ce1db90d77c44fce972db0c2e319845fc1d6a276d41d772c0294882e59d7f999",
+      "sha256": "sha256:ce1db90d77c44fce972db0c2e319845fc1d6a276d41d772c0294882e59d7f999"
+    },
+    {
+      "name": "request.bundle.js",
+      "path": "release/v3.3.2/request.bundle.js",
+      "source": "https://github.com/NSRingo/WeatherKit/releases/download/v3.3.2/request.bundle.js",
+      "sourceDigest": "sha256:da05af299dd2172e1c25a2bff349cdda268114ee7fc43340cc48da29c76ea033",
+      "sha256": "sha256:da05af299dd2172e1c25a2bff349cdda268114ee7fc43340cc48da29c76ea033"
     }
   ],
-  "notes": [
-    "Upstream licenses and attribution are retained in each fork.",
-    "Compiled JavaScript release assets are copied without modification.",
-    "Egern YAML/module wrappers change only runtime resource URLs.",
-    "NeteaseAds.conf retains the author-maintained gist script URL."
-  ]
+  "update_policy": "Stable releases checked every six hours; assets are verified before module URLs are published."
 }

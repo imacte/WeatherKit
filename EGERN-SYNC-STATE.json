@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "upstream": "NSRingo/WeatherKit",
+  "base_commit": "138e8a379bfff15fb2c35ec630747886751500bb",
+  "role": "weather-module",
+  "releases": [
+    {
+      "tag": "v3.3.2",
+      "assets": [
+        {
+          "path": "release/v3.3.2/iRingo.WeatherKit.yaml",
+          "sha256": "sha256:8a67e8b7ed2cc93a6c5d3ba810166e501e829d9be53db75b811257d4bc539013"
+        },
+        {
+          "path": "release/v3.3.2/response.bundle.js",
+          "sha256": "sha256:ce1db90d77c44fce972db0c2e319845fc1d6a276d41d772c0294882e59d7f999"
+        },
+        {
+          "path": "release/v3.3.2/request.bundle.js",
+          "sha256": "sha256:da05af299dd2172e1c25a2bff349cdda268114ee7fc43340cc48da29c76ea033"
+        }
+      ]
+    }
+  ],
+  "managed_paths": [
+    "EGERN-MIRROR.json",
+    "modules/WeatherKit.yaml",
+    "release/v3.3.2/iRingo.WeatherKit.yaml",
+    "release/v3.3.2/request.bundle.js",
+    "release/v3.3.2/response.bundle.js"
+  ]
+}
