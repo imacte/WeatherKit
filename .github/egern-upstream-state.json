@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "upstream": "NSRingo/WeatherKit",
+  "branch": "main",
+  "upstream_commit": "c40e8f8a13c8304a7ef500cb74acc5948af14b3f",
+  "mode": "merge-upstream",
+  "checked_at": "2026-10-31T11:20:29.272Z"
+}
